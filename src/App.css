@@ -1,0 +1,112 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.App {
+  text-align: center;
+  /* background-color: #003329; */
+  background-image: url("./img/background-2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #ffff00 #cf6b6b00;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 6px;
+    opacity: 0;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+::-webkit-scrollbar-track-piece
+{
+    background-color: transparent;
+    -webkit-border-radius: 6px;
+}
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #ffff00;
+    border-radius: 12px;
+  }
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.list {
+  z-index: 100;
+}
+
+.heading-txt {
+  z-index: 10;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: 003329;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.Parallax {
+  height: 60vh;
+  display: flex;
+  margin: auto;
+  padding: auto;
+  align-items: center;
+  /* text-align: center; */
+  justify-content: center;
+  /* vertical-align: middle; */
+}
+
+
+
+.Parallax h1 {
+  margin: auto;
+  position: absolute;
+  text-align: center;
+  font-family: 'Poppins';
+  font-size: 6rem;
+  font-weight: 700;
+  text-shadow: 2px 2px 4px rgba(46, 137, 73, 0.2);
+  /* background-clip: text;
+  -webkit-background-clip: text;
+  color: rgba(241, 222, 14, 0.8); */
+
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
