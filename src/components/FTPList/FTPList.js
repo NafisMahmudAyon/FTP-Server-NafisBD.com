@@ -7,7 +7,7 @@ const FTPList = () => {
     const data = [
         {
             "name": "ICC FTP Server",
-            "link": "http://10.16.100.244/"
+            "link": "http://10.16.100.244"
         },
         {
             "name": "Circle FTP Server",
