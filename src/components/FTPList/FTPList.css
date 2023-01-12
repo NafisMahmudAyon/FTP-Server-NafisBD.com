@@ -55,6 +55,14 @@ a {
     vertical-align: middle; */
 }
 
+.logos img {
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    right: 30px;
+    
+}
+
 .title {
     width: 100%;
     padding-left: 10px;

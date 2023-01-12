@@ -45,6 +45,18 @@
   pointer-events: none;
 }
 
+.logo img {
+  margin: auto;
+  padding: auto;
+  height: 400px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+    
+}
+
 .list {
   z-index: 100;
 }
@@ -71,7 +83,7 @@
 }
 
 .Parallax {
-  height: 60vh;
+  height: 25vh;
   display: flex;
   margin: auto;
   padding: auto;

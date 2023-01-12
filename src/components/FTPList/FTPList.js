@@ -1,6 +1,7 @@
 import './FTPList.css'
 
 import React from 'react'
+import logo from './logo.png';
 
 const FTPList = () => {
 
@@ -316,6 +317,9 @@ const FTPList = () => {
 
                         <div className='body'>
                             <iframe src={ element.link } scrolling="no" title={ element.name }></iframe>
+                        </div>
+                        <div className='logos'>
+                            <img src={logo} alt='' />
                         </div>
                     </div>
                 </div>

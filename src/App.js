@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import logo from './img/logo.png';
 import './App.css';
 import FTPList from './components/FTPList/FTPList';
 import Parallax from './components/Parallax/Parallax';
@@ -10,8 +10,10 @@ function App() {
       <div className='caro'>
         < Carousel />
       </div>
+      <div className='logo'>
+        <img src={logo} alt='' />
+      </div>
       <div className='Parallax'>
-        
         <h1 className='bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500 drop-shadow-[0_35px_35px_rgba(196,193,8,0.25)] heading-txt'>FTP Server List</h1>
       </div>
       <div className='list'>
