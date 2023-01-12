@@ -71,7 +71,7 @@ const FTPList = () => {
         },
         {
             "name": "BongoBD",
-            "link": "https://bongobd.com/"
+            "link": "https://bongobd.com"
         },
         {
             "name": "Cinema Bazar",
